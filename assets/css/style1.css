@@ -1,16 +1,26 @@
 * {
-    outline:black solid 1px;
+    /* outline:black solid 1px; */
     text-align: center;
+}
+body {
+    background-color: aliceblue;
+    height:100%;
 }
 
 .valueCards{
     display:flex;
-    background: pink;
+    height:400px;
+    
+    /* background: pink; */
 }
 .valueCard{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin:2%;
+    padding:4px;
     width:25%;
-    height:40%;
+    height:100%;
     background: rgba(200, 200, 200, 0.404);
     border-radius: 10px;
     box-shadow: 3px 3px 3px black;
@@ -24,14 +34,17 @@ h1 {
 }
 h2 {
     font-family: 'Inter', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 36px;
 }
 .valueBody {
     font-family: 'Inter', sans-serif;
     font-weight: 300;
+    font-size: 24px;
 }
 
 .valueNurture {
     font-family: 'Inter', sans-serif;
-    font-weight: 200;
+    font-weight: 500;
+    font-size: 20px;
 }
