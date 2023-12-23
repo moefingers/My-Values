@@ -1,0 +1,33 @@
+* {
+    outline:black solid 1px;
+    text-align: center;
+}
+
+.valueCards{
+    display:flex;
+    background: pink;
+}
+.valueCard{
+    width:25%;
+    height:40%;
+    background:greenyellow;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+.valueBody {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+
+.valueNurture {
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+}
